@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Cookie|Montserrat|Open+Sans+Condensed:300|Roboto+Mono&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<!-- Font Awesome CSS -->
+<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+    integrity="sha512-i8+QythOYyQke6XbStjt9T4yQHhhM+9Y9yTY1fOxoDQwsQpKMEpIoSQZ8mVomtnVCf9PBvoQDnKl06gGOOD19Q=="
+    crossorigin="anonymous" />
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+<script defer src="js/main.js"></script>
+<title>MLT | Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="img/logo 6.png" alt="My Portfolio" class="logo">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <h2>Hi.</h2>
+        <h5>See what I've been working on lately.</h5>
+        <p style="text-align:center"><i><small>*only available for desktop viewing</small></i></p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- <p style="text-align:center">Take a peek.</p> -->
+        <h5>Take a peek.</h5>
+        <div class="bottom-line"></div>
+        <div class="project">
+            <h3>Time-Series Application for Local Artisans</h3>
+            <p style="text-align:center">Protoype (Capstone Project)</p>
+            <br>
+            <p><a href="https://mchllt.github.io/TALA.github.io/TALA/"><img src="img/tala.png" alt="Project 1"></a></p>
+            <br>
+            <p>To address the issue surrounding the local artisans' management of their raw materials, the team came up
+                with a proposal to develop a machine learning model and a forecasting tool. The concept is called TALA,
+                or Time-series Application for Local Artisans. </p>
+            <br>
+            <p>Only five stores agreed to provide their data while ensuring that pertinent information that could
+                potentially identify the stores will remain confidential.</p>
+            <br>
+            <p>In the TALA wireframe, three models were built for each of the five stores. The best model based on the
+                validation metrics were then be selected. </p>
+            <ul>
+                <li>ARIMA</li>
+                <li>XGBoost</li>
+                <li>LSTM</li>
+            </ul>
+            <a href="https://mchllt.github.io/TALA.github.io/TALA/">Link</a>
+            <ul>
+                <li> username: <mark>user01</mark></li>
+                <li> password: <mark>root</mark></li>
+            </ul>
+        </div>
+        <div class="bottom-line"></div>
+
+        <div class="project">
+            <h3>Visualization of the Significant Events in the PH 2020</h3>
+            <p><a href="https://mchllt.github.io/Data_Viz_Significant-Events/"><img src="img/data_v.png"
+                        alt="Project 2"></a></p>
+            <br>
+            <p>Deploying analytics and data science can help to address and solve complex problems such as emergency
+                response by combining data visualization technology with geospatial and machine learning-driven
+                techniques utilizing historical data collection, allowing for proactive preparedness and responsiveness
+                in an expedited timeline.</p>
+            <br>
+            <p>This project used:</p>
+            <ul>
+                <li> Geopandas, the Python library for geography, for geospatial visualizations in mapping.
+                </li>
+                <li> Dataset from the United Nations Office for the Coordinationof Humanitarian Affairs (OCHA) in the
+                    Philippines: Philippines 2020: Significant Events.
+                </li>
+                <li> Jenks optimization method (or Fisher-Jenks algorithm) to cluster the provinces.
+                </li>
+            </ul>
+            <a href="https://mchllt.github.io/Data_Viz_Significant-Events/">Link</a>
+        </div>
+        <div class="bottom-line"></div>
+        <div class="project">
+            <h3>Palay Tek'</h3>
+            <p><a href="https://cielaglr.pythonanywhere.com/"><img src="img/palay_tek.png" alt="Project 3"></a></p>
+            <br>
+            <p>In the project, machine learning methods are applied to predict Palay production and deployed using a
+                flask. Basically, the app will predict the palay production based on area in hectares, temperature in
+                degrees Celsius, and rainfall in millimeters.</p>
+            <br>
+            <p>This project used:</p>
+            <ul>
+                <li>Data from the Philippine Rice Research Institute knowledge portal are publicly available and include
+                    the country's annual Palay Production (MT) from 1970 to 2021.
+                </li>
+                <li>Climate data for rainfall and average temperature are available from the Climate Change Knowledge
+                    Portal. It spans the years 1970 until 2021.</li>
+                <li>Random Forest Regressor, Linear Regression, and Decision Tree Regressor. Of all the methods
+                    performed, Random Forest Regressor achieved the highest accuracy score.</li>
+            </ul>
+            <a href="https://cielaglr.pythonanywhere.com/">Link</a>
+        </div>
+        <div class="bottom-line"></div>
+        <div class="project">
+            <h3>Geospatial Analysis of the Internet Speed in the Philippines</h3>
+            <p><a href="https://mchllt.github.io/NetMN/"><img src="img/net.png" alt="Project 4"></a></p>
+            <br>
+            <p>This project aims to identify the cluster of internet speed of the provinces in the country based on the
+                Speedtest by Ookla Global Mobile Network Performance Map Tiles available on their GitHub account. </p>
+            <br>
+            <p>This project used:</p>
+            <ul>
+                <li> Geopandas, the Python library for geography, for geospatial visualizations in mapping.
+                </li>
+                <li> The
+                    dataset provides global mobile (cellular) network performance, and data is provided in both
+                    Shapefile format. It covers the quarterly internet speed for the year 2020.
+                </li>
+                <li> Agglomerative Hierarchical Clustering
+                </li>
+            </ul>
+            <a href="https://mchllt.github.io/NetMN/">Link</a>
+        </div>
+        <div class="bottom-line"></div>
+        <div class="project">
+            <h3>Vehicle Detection and Classification for Traffic Management using YOLOv5 Models</h3>
+            <p><a href="https://mchllt.github.io/YOLOv5/"><img src="img/yolo.png" alt="Project 5"></a></p>
+            <br>
+            <p>This project deals with the development of an accurate tool to detect and classify vehicles using the
+                YOLOv5 architecture. Furthermore, the advanced computer vision techniques, specifically the YOLOv5
+                architecture, can be applied to traffic management for emergency vehicle priority, which is very vital.
+            </p>
+            <br>
+            <p>This project used:</p>
+            <ul>
+                <li>Dataset contains 627 images of various vehicle classes for object detection. These images are
+                    derived from the Open Images open source computer vision datasets.
+                </li>
+                <li>Used two different models—YOLOv5s and YOLOv5m.
+                </li>
+            </ul>
+            <a href="https://mchllt.github.io/YOLOv5/">Link</a>
+        </div>
+        <div class="bottom-line"></div>
+        <div class="project">
+            <h3>Sentiment Analysis: COVID-19 Vaccine Tweets</h3>
+            <p><a href="https://colab.research.google.com/drive/1mLgsdq8MifjCzf6YkN_kMqwiNJiSopzm"><img
+                        src="img/nlp.png" alt="Project 6"></a></p>
+            <br>
+            <p>Natural Language Processing: Utilizing the TextBlob API and word cloud visualizations to analyze the
+                discourse surrounding global vaccination.</p>
+            <br>
+            <a href=https://colab.research.google.com/drive/1mLgsdq8MifjCzf6YkN_kMqwiNJiSopzm>Link</a>
+        </div>
+
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <h5>Get in touch.</h5>
+        <!-- <p style="color:red;"> Email: traquenamichelle01@yahoo.com</p>
+        <p style="color:red;"> Phone: +639355528909 </p> -->
+        <div class="mail">
+            Email: <span class="text-color">traquenamichelle01@yahoo.com</span>
+        </div>
+        <div class="phone">
+            Phone: <span class="text-color">+639355528909</span>
+        </div>
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <footer>
+        <p style="text-align:center">&copy 2023 MLT</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
